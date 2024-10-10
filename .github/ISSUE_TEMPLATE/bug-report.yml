@@ -33,9 +33,9 @@ body:
     attributes:
       label: 📎 Attach any screenshots or videos
   - type: textarea
-      id: log
-      attributes:
-        label: ✏️ Log related to issue
+    id: log
+    attributes:
+      label: ✏️ Log related to issue
   - type: dropdown
     id: section
     attributes:
