@@ -9,7 +9,7 @@ body:
   - type: textarea
     id: description
     attributes:
-      label: 📋 Describe your issue
+      label: 📋 Issue description
       placeholder: Issue description
     validations:
       required: true
@@ -26,7 +26,7 @@ body:
   - type: textarea
     id: expected
     attributes:
-      label: 🔎 What was the expected result?
+      label: 🔎 Expected result
       placeholder: expectations
   - type: textarea
     id: screenshots
