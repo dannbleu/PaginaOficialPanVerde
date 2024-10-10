@@ -9,14 +9,14 @@ body:
   - type: textarea
     id: description
     attributes:
-      label: 📋 Describe your issue
+      label: 📋 Describe your issue:
       placeholder: Issue description
     validations:
       required: true
   - type: textarea
     id: steps
     attributes:
-      label: 🐾 Steps to reproduce
+      label: 🐾 Steps to reproduce:
       placeholder: |
         1. Enter Wordbox section
         2. Click here
@@ -31,11 +31,15 @@ body:
   - type: textarea
     id: screenshots
     attributes:
-      label: 📎 Attach any screenshots or videos (optional)
+      label: 📎 Attach any screenshots or videos
+  - type: textarea
+      id: log
+      attributes:
+        label: ✏️ Log related to issue:
   - type: dropdown
     id: section
     attributes:
-      label: 📌 App section impacted (can be multiple)
+      label: 📌 App section impacted (can be multiple):
       options:
         - "Onboarding"
         - "Home"
