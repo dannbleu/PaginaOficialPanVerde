@@ -35,7 +35,7 @@ body:
   - type: dropdown
     id: section
     attributes:
-      label: 📌 "App section impacted (can be multiple)"
+      label: 📌 App section impacted (can be multiple)
       options:
         - "Onboarding"
         - "Home"
