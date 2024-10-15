@@ -27,15 +27,17 @@ body:
     id: expected
     attributes:
       label: 🔎 Expected result
-      placeholder: expectations
+      placeholder: Expectations
   - type: textarea
     id: screenshots
     attributes:
       label: 📎 Attach any screenshots or videos
+      placeholder: Screen captures/ Screen recordings
   - type: textarea
     id: log
     attributes:
       label: ✏️ Log related to issue
+      placeholder: Paste sending and recieved from log console related to issue
   - type: dropdown
     id: section
     attributes:
